@@ -85,7 +85,7 @@ const Calculator = () => {
           <button
             onClick={handleSubmit}
             disabled={!formData.age}
-            className="bg-red-500 text-white px-12 py-4 text-lg font-medium hover:bg-red-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            className="bg-red-500 text-white px-12 py-4 text-lg font-medium hover:bg-red-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors rounded"
           >
             Calculate
           </button>
